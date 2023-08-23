@@ -5,6 +5,8 @@
 
 This code is built off Sascha Dittman's object detection with TensorFlow.JS demo: https://github.com/SaschaDittmann/tfjs-cv-objectdetection. The model is a YOLOv8n model, converted to the TensorFlow.JS format with this tutorial: https://docs.ultralytics.com/modes/export/#arguments. The code to convert raw model output into coherent bounding boxes comes from https://github.com/Hyuto/yolov8-tfjs/. The model is trained off the COCO dataset, so its just for general object detection.
 
+This model loads and runs far faster than its contemporaries and is very small.
+
 ## Setup 
 
 Prepare the node environments:
